@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+
+:root {
+  --text: #1A1A1A;
+  --background: #FFFFFF;
+  --primary: #E53935;
+  --secondary: #F5F5F5;
+  --accent: #0A0A0A;
+}
+
+@theme {
+  --font-montserrat: var(--font-montserrat);
+  --font-open-sans: var(--font-open-sans);
+  --color-text: var(--text);
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-open-sans {
+  font-family: var(--font-open-sans);
+}
+
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('/fonts/ethnocentric-rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-ethnocentric {
+  font-family: 'Ethnocentric', sans-serif;
+}
+
+.text-text {
+  color: var(--text);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+/* Background color utility classes */
+.bg-background {
+  background-color: var(--background);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+/* Gradient utilities */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--primary) 0%, #991b1b 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(180deg, var(--accent) 0%, #1a1a1a 100%);
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, var(--primary) 0%, transparent 70%);
+}
+
+/* Border color utilities */
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-secondary {
+  border-color: var(--secondary);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
+
+/* Card hover effects */
+.card-hover-glow:hover {
+  box-shadow: 0 0 40px rgba(229, 57, 53, 0.2);
+}
+
+/* Service card styles */
+.service-card-gradient {
+  background: linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.9) 100%);
+}
+
+/* Why hire section stat cards */
+.stat-card {
+  background: linear-gradient(135deg, rgba(229, 57, 53, 0.1) 0%, rgba(229, 57, 53, 0.05) 100%);
+  border: 1px solid rgba(229, 57, 53, 0.2);
+}
+
+.stat-card:hover {
+  background: linear-gradient(135deg, rgba(229, 57, 53, 0.2) 0%, rgba(229, 57, 53, 0.1) 100%);
+  border-color: var(--primary);
+}
+
+/* Process timeline styles */
+.timeline-line {
+  background: linear-gradient(180deg, var(--primary) 0%, transparent 100%);
+}
+
+/* Feature icon container */
+.feature-icon {
+  background: linear-gradient(135deg, var(--primary) 0%, #991b1b 100%);
+}
+
+/* ===== Page Transition ===== */
+.page-transition-wrapper {
+  will-change: opacity, transform;
+}
+
+/* ===== Contact Page Styles ===== */
+.contact-card {
+  background: rgba(255, 255, 255, 0.08);
+  /* Increased from 0.04 */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  /* Slightly more prominent border */
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-card:hover {
+  border-color: var(--primary);
+  background: rgba(229, 57, 53, 0.06);
+  box-shadow: 0 8px 40px rgba(229, 57, 53, 0.15);
+  transform: translateY(-4px);
+}
+
+.contact-card-whatsapp:hover {
+  border-color: #25D366;
+  background: rgba(37, 211, 102, 0.06);
+  box-shadow: 0 8px 40px rgba(37, 211, 102, 0.15);
+}
+
+.contact-card-icon {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.contact-card-icon.icon-primary {
+  background: rgba(229, 57, 53, 0.15);
+  color: var(--primary);
+}
+
+.contact-card:hover .contact-card-icon.icon-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.contact-card-icon.icon-whatsapp {
+  background: rgba(37, 211, 102, 0.15);
+  color: #25D366;
+}
+
+.contact-card-whatsapp:hover .contact-card-icon.icon-whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.contact-card-arrow {
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+  color: var(--primary);
+  margin-left: auto;
+  align-self: center;
+}
+
+.contact-card-whatsapp .contact-card-arrow {
+  color: #25D366;
+}
+
+.contact-card:hover .contact-card-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
