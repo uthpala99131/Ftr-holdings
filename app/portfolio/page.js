@@ -257,11 +257,34 @@ useEffect(() => {
 /* ---------------- PAGINATION STATE ---------------- */
 
 const [currentPage, setCurrentPage] = useState(1)
-const itemsPerPage = 6
+const itemsPerPage = 8
 
 /* -------------------------------- PROJECTS -------------------------------- */
 
 const projects = [
+  {
+    id: 6,
+    title: 'Social Media Marketing',
+    category: 'Digital Marketing',
+    desc: 'A full-suite social media management strategy focusing on consistent brand storytelling, engagement growth, interactive content scheduling, and community building across multiple channels.',
+    images: [
+      '/project/marketing/SM2.jpg',
+      '/project/marketing/SM3.jpg',
+      '/project/marketing/SM1.jpg',
+      '/project/marketing/SM6.jpg'
+    ]
+  },
+    {
+    id: 5,
+    title: 'Branding',
+    category: 'Digital Marketing',
+    desc: 'A high-impact, data-driven marketing campaign tailored to expand reach and optimize user acquisition, leveraging targeted ads, detailed performance tracking, and custom conversion funnel designs.',
+    images: [
+      '/project/marketing/SMB5.jpg',
+      '/project/marketing/SMb4.jpg'
+    ]
+  },
+
   // Web & IT solutions (webmobile)
   {
     id: 1,
@@ -297,6 +320,17 @@ const projects = [
     ]
   },
   {
+    id: 113,
+    title: 'Kaveesha Wadugoda Portfolio Website',
+    category: 'Web & IT solutions',
+    desc: 'A modern and professional personal portfolio website showcasing creative expertise, featured projects, skills, and career achievements. Designed with an engaging user interface, seamless navigation, and interactive sections to highlight experience, services, and professional branding.',
+    images: [
+      '/project/webmobile/kavi1.png',
+      '/project/webmobile/kavi2.png',
+      '/project/webmobile/kavi3.png'
+    ]
+  },
+  {
     id: 4,
     title: 'Farm Management System',
     category: 'Web & IT solutions',
@@ -308,26 +342,7 @@ const projects = [
   },
 
   // Digital Marketing (marketing)
-  {
-    id: 5,
-    title: 'MA Marketing',
-    category: 'Digital Marketing',
-    desc: 'A high-impact, data-driven marketing campaign tailored to expand reach and optimize user acquisition, leveraging targeted ads, detailed performance tracking, and custom conversion funnel designs.',
-    images: [
-      '/project/marketing/ma1.jpg',
-      '/project/marketing/ma2.jpg'
-    ]
-  },
-  {
-    id: 6,
-    title: 'MN Management',
-    category: 'Digital Marketing',
-    desc: 'A full-suite social media management strategy focusing on consistent brand storytelling, engagement growth, interactive content scheduling, and community building across multiple channels.',
-    images: [
-      '/project/marketing/mn1.jpg',
-      '/project/marketing/mn2.jpg'
-    ]
-  },
+
 
   // Design & Branding (design)
   {
@@ -336,9 +351,14 @@ const projects = [
     category: 'Design & Branding',
     desc: 'A creative branding and design collection tailored for educational institutes, featuring engaging flyer designs, promotional banners, and visual aids built to attract student enrollment.',
     images: [
+      '/project/design/ma3.jpg',
+'/project/design/TC14.jpg',
+'/project/design/TC13.jpg',
+'/project/design/TC12.jpg',
+'/project/design/TC5.jpg',
       '/project/design/ma1.jpg',
-      '/project/design/ma2.jpg',
-      '/project/design/ma3.jpg'
+      '/project/design/ma2.jpg'
+      
     ]
   },
   {

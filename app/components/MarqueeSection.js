@@ -23,6 +23,7 @@ const PartnersSection = () => {
     { logo: '/MPLOGO.png' },
     { logo: '/VSH.jpg' },
     { logo: '/VW.jpg' },
+    { logo: '/liyo.jpeg'},
     { logo: '/WIN.png' }
   ]
 
@@ -34,6 +35,7 @@ const PartnersSection = () => {
     { logo: '/swl.jpg' },
     { logo: '/vidu.jpg' },
     { logo: '/vira.jpg' },
+    { logo: '/sp.png' },
     { logo: '/yel.jpg' }
   ]
 
