@@ -378,7 +378,7 @@ const Footer = () => {
                             className="font-semibold transition-colors"
                             style={{ color: 'var(--primary)' }}
                         >
-                            Sahan Mewantha (CTO)
+                            FTR Global-Sahan Mewantha(CTO)
                         </Link>
                     </p>
                 </div>
