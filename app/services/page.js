@@ -72,7 +72,7 @@ const ServicesPage = () => {
       icon: Award,
       title: 'Proven Track Record',
       description: 'Over 150+ successful projects delivered across diverse industries',
-      stat: '100+',
+      stat: '50+',
       statLabel: 'Projects Completed'
     },
     {

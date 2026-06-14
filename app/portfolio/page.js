@@ -399,91 +399,102 @@ const reelsData = [
   },
   {
     id: 2,
-    title: 'Volkswagen Cinematic Promo',
-    category: 'Automotive Promo',
+    title: 'Viraga Wedding Center ',
+    category: 'Business Promo',
     desc: 'A premium, high-octane cinematic promotion capturing the sleek aesthetics and dynamic performance of the latest Volkswagen series.',
     videoUrl: '/reels/VW(P)_2.mp4',
     aspect: 'vertical',
-    client: 'Volkswagen',
-    year: '2026',
-    tags: ['Cinematic', 'Automotive', 'Color Grading']
-  },
-  {
-    id: 3,
-    title: 'Alpha Brand Lifestyle',
-    category: 'Fashion & Lifestyle',
-    desc: 'High-energy fashion reel showing youth culture and streetwear aesthetics for the Alpha Brand.',
-    videoUrl: '/reels/AB1.mp4',
-    aspect: 'vertical',
-    client: 'Alpha Clothing Co.',
+    client: 'Viraga Wedding Center',
     year: '2026',
     tags: ['Fashion', 'Lifestyle', 'Fast Cut']
   },
   {
+    id: 3,
+    title: 'Auto Brokers',
+    category: 'AI Video',
+    desc: 'High-energy fashion reel showing youth culture and streetwear aesthetics for the Alpha Brand.',
+    videoUrl: '/reels/AB1.mp4',
+    aspect: 'vertical',
+    client: 'Auto Brokers',
+    year: '2026',
+     tags: ['Cinematic', 'Automotive', 'Color Grading']
+  },
+  {
     id: 4,
-    title: 'Digital Luxury Life - Episode 1',
+    title: 'Directline Limited - Episode 1',
     category: 'Luxury Lifestyle',
-    desc: 'Episode 1 of the Digital Luxury Lifestyle series, showcasing high-end architecture and premium modern living.',
+    desc: 'Episode 1 of the Directline Limited series, showcasing high-end architecture and premium modern living.',
     videoUrl: '/reels/DLL1.mp4',
     aspect: 'vertical',
-    client: 'DLL Media',
+    client: 'Directline Limited',
     year: '2025',
-    tags: ['Reels', 'Luxury', 'Interior']
+    tags: ['Reels', 'Business']
   },
   {
     id: 5,
-    title: 'Digital Luxury Life - Episode 2',
+    title: 'Directline Limited - Episode 2',
     category: 'Luxury Lifestyle',
-    desc: 'Episode 2 of the Digital Luxury Lifestyle series, featuring modern urban fashion and high-end automotive design.',
+    desc: 'Episode 2 of the Directline Limited series, featuring modern urban fashion and high-end automotive design.',
     videoUrl: '/reels/DLL2.mp4',
     aspect: 'vertical',
-    client: 'DLL Media',
+    client: 'Directline Limited',
     year: '2025',
-    tags: ['Reels', 'Fashion', 'Cars']
+    tags: ['Reels', 'Business']
   },
   {
     id: 6,
-    title: 'Digital Luxury Life - Episode 3',
+    title: 'Directline Limited - Episode 3',
     category: 'Luxury Lifestyle',
-    desc: 'Episode 3 of the Digital Luxury Lifestyle series, focusing on luxury travel, tropical getaways, and resort living.',
+    desc: 'Episode 3 of the Directline Limited series, focusing on luxury travel, tropical getaways, and resort living.',
     videoUrl: '/reels/DLL3.mp4',
     aspect: 'vertical',
-    client: 'DLL Media',
+    client: 'Directline Limited',
     year: '2025',
-    tags: ['Reels', 'Travel', 'Cinematic']
+    tags: ['Reels', 'Business']
   },
   {
     id: 7,
-    title: 'Digital Luxury Life - Episode 4',
+    title: 'Directline Limited - Episode 4',
     category: 'Luxury Lifestyle',
-    desc: 'Episode 4 of the Digital Luxury Lifestyle series, highlighting fitness, morning routines, and wellness aesthetics.',
+    desc: 'Episode 4 of the Directline Limited series, highlighting fitness, morning routines, and wellness aesthetics.',
     videoUrl: '/reels/DLL4.mp4',
     aspect: 'vertical',
-    client: 'DLL Media',
+    client: 'Directline Limited',
     year: '2026',
-    tags: ['Reels', 'Fitness', 'Aesthetic']
+    tags: ['Reels', 'Business']
+  },
+   {
+    id: 18,
+    title: 'ONE Shoot - FTR Global',
+    category: 'Luxury Lifestyle',
+    desc: 'One shoot. One unforgettable vibe. ',
+    videoUrl: '/reels/ONE.mp4',
+    aspect: 'vertical',
+    client: 'Sigiri rest',
+    year: '2026',
+    tags: ['Reels', 'Hotel & Tourism']
   },
   {
     id: 8,
-    title: 'Digital Luxury Life - Episode 5',
+    title: 'Directline Limited - Episode 5',
     category: 'Luxury Lifestyle',
-    desc: 'The season finale of the Digital Luxury Lifestyle series, exploring nightlife, city lights, and premium dining experiences.',
+    desc: 'The season finale of the Directline Limited series, exploring nightlife, city lights, and premium dining experiences.',
     videoUrl: '/reels/DLL5.mp4',
     aspect: 'vertical',
-    client: 'DLL Media',
+    client: 'Directline Limited',
     year: '2026',
-    tags: ['Reels', 'Nightlife', 'Food']
+    tags: ['Reels', 'Business']
   },
   {
     id: 9,
-    title: 'Urban Event Aftermovie',
+    title: 'Thilina & Naduni Wedding Day',
     category: 'Event Promotion',
     desc: 'An immersive, rhythm-synchronized reel capturing the vibrant energy and crowd response at the Urban Beats festival.',
     videoUrl: '/reels/EV1.mp4',
     aspect: 'vertical',
-    client: 'Urban Beats Festival',
+    client: 'Thilina & Naduni',
     year: '2026',
-    tags: ['Aftermovie', 'Music', 'Vibrant']
+    tags: ['Wedding', 'Event', 'Vibrant']
   },
   {
     id: 10,
@@ -498,15 +509,26 @@ const reelsData = [
   },
   {
     id: 11,
-    title: 'Global Entrepreneur Branding',
+    title: 'Goblin\' Event Builders',
     category: 'Corporate Storytelling',
     desc: 'Corporate branding reel designed for modern founders, combining expert advice with high-end b-roll footage.',
     videoUrl: '/reels/GEB.mp4',
     aspect: 'vertical',
-    client: 'GEB Group',
+    client: 'GEB',
     year: '2026',
-    tags: ['Corporate', 'Interview', 'Storytelling']
-  }
+    tags: ['Event', 'Promotion', 'Storytelling']
+  },
+   {
+    id: 3,
+    title: 'SuhadaFibers',
+    category: 'Business Promo',
+    desc: 'High-energy fashion reel showing youth culture and streetwear aesthetics for the Alpha Brand.',
+    videoUrl: '/reels/SFG(L).mp4',
+    aspect: 'vertical',
+    client: 'Suhada Fiber Glass',
+    year: '2026',
+     tags: ['Cinematic', 'Automotive', 'Color Grading']
+  },
 ]
 
 /* -------------------------------- FILTERS -------------------------------- */

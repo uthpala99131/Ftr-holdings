@@ -17,7 +17,7 @@ const AboutSection = () => {
 
     // Merging your previous stats with the new design style
     const stats = [
-        { label: 'PROJECTS DONE', value: '100+' },
+        { label: 'PROJECTS DONE', value: '50+' },
         { label: 'HAPPY CLIENTS', value: '98%' },
         { label: 'GROWTH RATE', value: '200%' },
     ]
