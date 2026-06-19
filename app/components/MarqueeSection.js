@@ -18,10 +18,11 @@ const PartnersSection = () => {
   const row1Partners = [
     { logo: '/ABL1.jpg' },
     { logo: '/DL1.jpg' },
-    { logo: '/EYERISLOGO1.png' },
+    { logo: '/KBA.png' },
     { logo: '/LFLOGO.jpg' },
     { logo: '/MPLOGO.png' },
     { logo: '/VSH.jpg' },
+    { logo: '/UNI.png'},
     { logo: '/VW.jpg' },
     { logo: '/liyo.jpeg'},
     { logo: '/WIN.png' }
@@ -34,9 +35,12 @@ const PartnersSection = () => {
     { logo: '/suhada.jpeg' },
     { logo: '/swl.jpg' },
     { logo: '/vidu.jpg' },
+    { logo: '/SNP.png'},
     { logo: '/vira.jpg' },
     { logo: '/sp.png' },
-    { logo: '/yel.jpg' }
+    { logo: '/yel.jpg' },
+    { logo: '/HP.png'}
+
   ]
 
   useLayoutEffect(() => {
