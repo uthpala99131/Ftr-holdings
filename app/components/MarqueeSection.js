@@ -41,6 +41,7 @@ const PartnersSection = () => {
     { logo: '/yel.jpg' },
     { logo: '/HP.png'}
 
+    
   ]
 
   useLayoutEffect(() => {
