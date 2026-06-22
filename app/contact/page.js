@@ -143,7 +143,7 @@ const ContactPage = () => {
 
             {/* Email Card */}
             <a
-              href="mailto:ftrholdings@gmail.com"
+              href="mailto:contact@ftrglobals.com"
               className="info-card contact-card"
             >
               <div className="contact-card-icon icon-primary">
@@ -151,8 +151,8 @@ const ContactPage = () => {
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="font-ethnocentric text-base sm:text-lg mb-2">Email Us</h3>
-                <p className="font-open-sans text-secondary mb-1 text-sm sm:text-base">ftrglobals@gmail.com</p>
-                <p className="font-open-sans text-secondary text-sm sm:text-base">ftrholdingss@gmail.com</p>
+                <p className="font-open-sans text-secondary mb-1 text-sm sm:text-base">contact@ftrglobals.com</p>
+                <p className="font-open-sans text-secondary text-sm sm:text-base">ftrglobals@gmail.com</p>
               </div>
               <ExternalLink className="contact-card-arrow w-5 h-5" />
             </a>

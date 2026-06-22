@@ -165,12 +165,12 @@ const Footer = () => {
                                 </span>
                             </a>
                             <a
-                                href="mailto:ftrglobals@gmail.com"
+                                href="mailto:contact@ftrglobals.com"
                                 className="flex items-center gap-3 transition-colors cursor-pointer group"
                                 style={{ color: 'var(--secondary)' }}
                             >
                                 <Mail className="w-4 h-4 shrink-0 group-hover:text-primary transition-colors" style={{ color: 'var(--primary)' }} />
-                                <span className="text-sm font-montserrat group-hover:text-primary transition-colors" style={{ opacity: 0.8 }}>ftrglobals@gmail.com</span>
+                                <span className="text-sm font-montserrat group-hover:text-primary transition-colors" style={{ opacity: 0.8 }}>contact@ftrglobals.com</span>
                             </a>
                         </div>
                     </div>
@@ -378,7 +378,7 @@ const Footer = () => {
                             className="font-semibold transition-colors"
                             style={{ color: 'var(--primary)' }}
                         >
-                            Sahan Mewantha (CTO)
+                            FTR Global-Sahan Mewantha(CTO)
                         </Link>
                     </p>
                 </div>

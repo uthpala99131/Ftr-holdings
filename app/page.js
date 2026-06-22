@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-// Import all section components
+
 import HeroSection from './components/HeroSection'
 import ServicesMarquee from './components/ServicesMarquee'
 import AboutSection from './components/AboutSection'
