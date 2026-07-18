@@ -306,7 +306,7 @@ const projects = [
     category: 'Digital Marketing',
     desc: 'A full-suite digital marketing and branding strategy focusing on consistent brand storytelling, data-driven advertising campaigns, interactive social media management, and end-to-end community building across multiple channels.',
     images: [
-      '/project/marketing/SM4.png',
+      '/project/marketing/SM2.png',
     ]
   },
   // Web & IT solutions (webmobile)
