@@ -21,7 +21,6 @@ const PartnersSection = () => {
     { logo: '/KBA.png' },
     { logo: '/TD.png' },
     { logo: '/LFLOGO.jpg' },
-    { logo: '/MPLOGO.png' },
     { logo: '/VSH.jpg' },
     { logo: '/UNI.png'},
     { logo: '/VW.jpg' },
@@ -31,7 +30,7 @@ const PartnersSection = () => {
   ]
 
   const row2Partners = [
-    { logo: '/YSl.jpg' },
+  
     { logo: '/gob.jpg' },
     { logo: '/WBA.jpg' },
     { logo: '/snl.jpg' },
