@@ -19,18 +19,21 @@ const PartnersSection = () => {
     { logo: '/ABL1.jpg' },
     { logo: '/DL1.jpg' },
     { logo: '/KBA.png' },
+    { logo: '/TD.png' },
     { logo: '/LFLOGO.jpg' },
     { logo: '/MPLOGO.png' },
     { logo: '/VSH.jpg' },
     { logo: '/UNI.png'},
     { logo: '/VW.jpg' },
     { logo: '/liyo.jpeg'},
+    { logo: '/FNH.png' },
     { logo: '/WIN.png' }
   ]
 
   const row2Partners = [
     { logo: '/YSl.jpg' },
     { logo: '/gob.jpg' },
+    { logo: '/WBA.jpg' },
     { logo: '/snl.jpg' },
     { logo: '/suhada.jpeg' },
     { logo: '/swl.jpg' },
