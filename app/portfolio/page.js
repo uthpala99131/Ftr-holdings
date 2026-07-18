@@ -379,7 +379,7 @@ const projects = [
     category: 'Web & IT solutions',
     desc: 'A professional digital agency web platform for branding and marketing firms, supporting end-to-end data-driven creative solutions, fully responsive multi-device layouts (desktop, tablet, and mobile), interactive portfolio showcases, client trust badges, and strategic call-to-action funnels for business growth.',
     images: [
-      '/project/webmobile/WEB3.jpg',
+      '/project/webmobile/WEB3.png',
       
     ]
   },
