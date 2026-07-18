@@ -257,24 +257,39 @@ useEffect(() => {
 /* ---------------- PAGINATION STATE ---------------- */
 
 const [currentPage, setCurrentPage] = useState(1)
-const itemsPerPage = 8
+const itemsPerPage = 12
 
 /* -------------------------------- PROJECTS -------------------------------- */
 
 const projects = [
   {
     id: 6,
-    title: 'Social Media Marketing',
+    title: 'Directline Limited - Qatar',
     category: 'Digital Marketing',
     desc: 'A full-suite social media management strategy focusing on consistent brand storytelling, engagement growth, interactive content scheduling, and community building across multiple channels.',
     images: [
-      '/project/marketing/SM2.jpg',
-      '/project/marketing/SM3.jpg',
-      '/project/marketing/SM1.jpg',
-      '/project/marketing/SM6.jpg'
+      '/project/marketing/SM5.png',
     ]
   },
     {
+    id: 7,
+    title: 'Kandy Business Advisor',
+    category: 'Digital Marketing',
+    desc: 'A full-suite digital marketing, social media management, and advertising strategy focusing on consistent brand storytelling, data-driven ad campaigns, interactive content scheduling, and community building across multiple channels.',
+    images: [
+      '/project/marketing/SM1.png',
+    ]
+  },
+    {
+    id: 8,
+    title: 'Liyo Travels & Tours',
+    category: 'Digital Marketing',
+    desc: 'A full-suite digital marketing and branding strategy focusing on consistent brand storytelling, data-driven advertising campaigns, interactive social media management, and end-to-end community building across multiple channels.',
+    images: [
+      '/project/marketing/SM3.png',
+    ]
+  },
+  {
     id: 5,
     title: 'Branding',
     category: 'Digital Marketing',
@@ -284,8 +299,26 @@ const projects = [
       '/project/marketing/SMb4.jpg'
     ]
   },
-
+  
+    {
+    id: 9,
+    title: 'Goblin Event Builders',
+    category: 'Digital Marketing',
+    desc: 'A full-suite digital marketing and branding strategy focusing on consistent brand storytelling, data-driven advertising campaigns, interactive social media management, and end-to-end community building across multiple channels.',
+    images: [
+      '/project/marketing/SM4.png',
+    ]
+  },
   // Web & IT solutions (webmobile)
+   {
+    id: 12,
+    title: 'Directline Limited Website',
+    category: 'Web & IT solutions',
+    desc: 'A premium corporate web platform for business consultancy firms, supporting international company incorporation, responsive multi-device layouts (desktop, tablet, mobile), secure lead generation, integrated instant messaging shortcuts, and official legal documentation/translation tracking.',
+    images: [
+      '/project/webmobile/WEB2.png',  
+    ]
+  },
   {
     id: 1,
     title: 'Smart Spent Mobile Application',
@@ -338,6 +371,16 @@ const projects = [
     images: [
       '/project/webmobile/farm1.webp',
       '/project/webmobile/farm2.webp'
+    ]
+  },
+  {
+    id: 13,
+    title: 'Hypen 360 Website',
+    category: 'Web & IT solutions',
+    desc: 'A professional digital agency web platform for branding and marketing firms, supporting end-to-end data-driven creative solutions, fully responsive multi-device layouts (desktop, tablet, and mobile), interactive portfolio showcases, client trust badges, and strategic call-to-action funnels for business growth.',
+    images: [
+      '/project/webmobile/WEB3.jpg',
+      
     ]
   },
 
