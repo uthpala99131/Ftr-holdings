@@ -363,6 +363,17 @@ const projects = [
       '/project/webmobile/kavi3.png'
     ]
   },
+    {
+    id: 114,
+    title: 'Modern Travel Web Site - For Sale',
+    category: 'Web & IT solutions',
+    desc: 'Welcome to the ultimate modern travel platform, expertly designed to showcase breathtaking destinations, streamline tour bookings, and deliver an unforgettable user experience. Built with a sleek, responsive layout and fast performance, this website features interactive itinerary displays, seamless booking capabilities, stunning high-resolution galleries, and integrated search filters. Best of all, every aspect of this platform is 100% customizable from the layout, color palette, and typography to specific functionalities, payment gateways, and content structure. Whether you want to adapt it for luxury getaways, adventure tours, or boutique travel services, we can tailor all elements to perfectly align with your brands unique vision and business needs.',
+    images: [
+      '/project/webmobile/TW1.png',
+      '/project/webmobile/TW2.png',
+      '/project/webmobile/TW3.png'
+    ]
+  },
   {
     id: 4,
     title: 'Farm Management System',

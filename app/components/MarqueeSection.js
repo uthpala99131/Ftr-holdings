@@ -22,9 +22,11 @@ const PartnersSection = () => {
     { logo: '/TD.png' },
     { logo: '/LFLOGO.jpg' },
     { logo: '/VSH.jpg' },
+    { logo: '/RS.jpg' },
     { logo: '/UNI.png'},
     { logo: '/VW.jpg' },
     { logo: '/liyo.jpeg'},
+    { logo: '/WG.png' },
     { logo: '/FNH.png' },
     { logo: '/WIN.png' }
   ]
@@ -35,10 +37,12 @@ const PartnersSection = () => {
     { logo: '/WBA.jpg' },
     { logo: '/snl.jpg' },
     { logo: '/suhada.jpeg' },
+    { logo: '/ABC.jpg' },
     { logo: '/swl.jpg' },
     { logo: '/vidu.jpg' },
     { logo: '/SNP.png'},
     { logo: '/vira.jpg' },
+    { logo: '/EBS.jpg' },
     { logo: '/sp.png' },
     { logo: '/yel.jpg' },
     { logo: '/HP.png'}
